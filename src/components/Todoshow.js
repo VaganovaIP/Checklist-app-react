@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCheck, faAdd, faTrash, faPen, faSave, faPenSquare } from '@fortawesome/free-solid-svg-icons'
+import { faCheck, faAdd, faTrash, faPen, faSave, faPenSquare, faKiwiBird} from '@fortawesome/free-solid-svg-icons'
 
 function Todoshow({todo, setTodo}){
 
@@ -40,7 +40,7 @@ function Todoshow({todo, setTodo}){
     
     return(
         <div className="todo-list">
-             <ul className=""> 
+             <ul className="" > 
                  { React.Children.toArray(todo.map(item => (
                     <div key = {item.id}>
                         {
@@ -67,7 +67,7 @@ function Todoshow({todo, setTodo}){
                             </button>
                             <button className="edit-button"
                                     onClick={() => editTodo(item.id, item.title)}>
-                                    <FontAwesomeIcon icon={faPenSquare}/>
+                                    <FontAwesomeIcon icon={faKiwiBird}/>
                             </button>
                             <button className="check-button"
                                     onClick={()=>checkTodo(item.id)}>

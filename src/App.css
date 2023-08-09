@@ -9,7 +9,7 @@ p{
 }
 
 body{
-  background-color: #e8ebee;
+  background-color: #d7dee4b2;
 }
 
 .App {
@@ -45,7 +45,7 @@ input{
   min-height: 10px;
   max-height: max-content;
   display: block;
-  background-color: rgba(179, 183, 185, 0.712);
+  background-color: rgba(207, 222, 230, 0.527);
   margin-bottom: 20px;
   margin-left: 20px;
 	border: none;  
@@ -56,6 +56,7 @@ input{
   padding-left: 10px;
   padding-right: 0px;
   content: none;
+
 }
 
 ul{
@@ -114,7 +115,7 @@ li{
 }
 
 .input-wrapper{
-  width: 540px;
+  width: 538px;
   height: 40px;
   padding: 5px 5px 5px 40px;
   display: block;
@@ -124,7 +125,9 @@ li{
   border-width: 2px;
   border-style: solid;
   border-color: #d6cbe0ea;
+  filter: drop-shadow(5px 5px 5px #9e70d3b7);
 }
+
 
 .todo-list{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -136,7 +139,10 @@ li{
   overflow: scroll;
   overflow-x: hidden;
   border-radius: 7px;
+  filter: drop-shadow(5px 5px 5px #9e70d3b7);
 }
+
+
 
 button {
 	display: inline-block;	
