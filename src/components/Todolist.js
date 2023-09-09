@@ -22,6 +22,7 @@ function Todolist({todo,  setTodo}){
 
     return(
         <div className = "input-wrapper">
+            <h1>Чеклист</h1>
             <input 
                 type = "text"
                 name="todo"

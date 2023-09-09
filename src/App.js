@@ -10,7 +10,7 @@ function App(){
     return(
 
         <div className='App'>
-            <h1>Список дел</h1>
+            
             <Todolist todo ={todo} setTodo={setTodo} />
             <Todoshow todo = {todo} setTodo={setTodo}/>  
         </div>
